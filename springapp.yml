@@ -19,16 +19,16 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: mylandmarktech/spring-boot-mongo
+        image: princebabs/springapp
         ports:
         - containerPort: 8080
         env:
         - name: MONGO_DB_USERNAME
-          value: devdb
+          value: princebabs
         - name: MONGO_DB_PASSWORD
-          value: devdb@123
+          value: princebabs123
         - name: MONGO_DB_HOSTNAME
-          value: mongo 
+          value: mongodb 
 ---
 apiVersion: v1
 kind: Service
@@ -79,9 +79,9 @@ spec:
          - containerPort: 27017
          env:
          - name: MONGO_INITDB_ROOT_USERNAME
-           value: devdb
+           value: princebabs
          - name: MONGO_INITDB_ROOT_PASSWORD
-           value: devdb@123
+           value: princebabs123
          volumeMounts:
          - name: pvc
            mountPath: /data/db   
@@ -89,7 +89,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mongo
+  name: mongodb
 spec:
   type: ClusterIP
   selector:
