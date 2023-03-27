@@ -1,7 +1,7 @@
 ---
 - hosts: eks
   tasks:
-    name: Copy springapp to eks server
-    copy: src=springapp.yml dest=/home/eks/springapp.yml
-    name: Deploy springapp
+  - name: Copy springapp to eks server
+    copy: src=/home/ansible/auto/springapp.yml dest=/home/eks/springapp.yml
+  - name: Deploy springapp
     shell: kubectl apply -f /home/eks/springapp.yml
