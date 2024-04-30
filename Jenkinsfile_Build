@@ -29,8 +29,8 @@ pipeline{
       stage('predeployment'){
       steps{
         sh "echo creating docker image"
-        sh "docker build -t princebabs/springapp:1 . "
-        sh "docker push princebabs/springapp:1"
+        sh "docker build -t princebabs/springapp:v2 . "
+        sh "docker push princebabs/springapp:v2"
       }
     }
     //stage('UnDeploy'){
