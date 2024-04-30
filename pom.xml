@@ -18,9 +18,9 @@
 		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
-		<sonar.host.url>https://dbsonar.devopsnetwork.net</sonar.host.url> 
+		<sonar.host.url>https://qa.devopsnetwork.net</sonar.host.url> 
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Arsenal</sonar.password> 
+		<sonar.password>Gohan24</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
