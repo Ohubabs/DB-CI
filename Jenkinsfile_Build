@@ -26,11 +26,24 @@ pipeline{
         sh  "echo All conditions met/passed"
       }
     }
-      stage('predeployment'){
+      stage('BuildImage'){
       steps{
         sh "echo creating docker image"
-        sh "docker build -t princebabs/springapp:1 . "
-        sh "docker push princebabs/springapp:1"
+        sh "docker build -t princebabs/springapp:v2 . "
+      }
+    }
+    stage('predeployment'){
+      steps{
+        withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'DOCKERHUB_PASSWORD', usernameVariable: 'DOCKERHUB_USERNAME')]) {
+          sh "echo 'Log In to DockerHub'"
+          sh "docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD"
+      }
+      }
+    }
+    stage('Push Image To DockerHub'){
+      steps{
+        sh "echo creating docker image"
+        sh "docker push princebabs/springapp:v2"
       }
     }
     //stage('UnDeploy'){
