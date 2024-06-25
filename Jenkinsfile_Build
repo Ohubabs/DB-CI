@@ -29,7 +29,7 @@ pipeline{
       stage('BuildImage'){
       steps{
         sh "echo creating docker image"
-        sh "docker build -t princebabs/springapp:v2 . "
+        sh "docker build -t princebabs/arsenalspringapp:v1 . "
       }
     }
     stage('predeployment'){
@@ -43,7 +43,7 @@ pipeline{
     stage('Push Image To DockerHub'){
       steps{
         sh "echo creating docker image"
-        sh "docker push princebabs/springapp:v2"
+        sh "docker push princebabs/arsenalspringapp:v1"
       }
     }
     //stage('UnDeploy'){
