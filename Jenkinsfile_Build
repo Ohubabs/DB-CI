@@ -9,7 +9,7 @@ pipeline{
     //stage('GitClone'){
     //  steps{
     //    echo "cloning the lastest applications version"
-    //    git "https://github.com/Konoha-23/Konoha_maven-web-application.git"
+    //    git "https://github.com/Ohubabs/DB-CI.git"
     //  }
     //}
       stage('Test+Build'){
