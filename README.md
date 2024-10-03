@@ -17,6 +17,11 @@ For this project, you are to setup a pipeline with Maven, SonarQube, and Docker 
 ![Screenshot 2024-06-24 at 3 29 15 PM](https://github.com/user-attachments/assets/d9bb424d-cfd7-4d08-9281-529009547f6c)
 
 ### Step 3: Go to “Configuration”, Select “Poll SCM” and Enter the details for your GitHub repo & Jenkinsfile or copy and paste the Jenkinsfile in this repo.
+
+![image](https://github.com/user-attachments/assets/7a621423-4f32-450f-9659-3c0c15ed87a0)
+
+![image](https://github.com/user-attachments/assets/7e630246-abc9-4509-93b8-aefc56cc4273)
+
 ### Step 4: Click “Build now” to run your pipeline with Maven, SonarQube, and Docker to Build, Test, Containerize and Push your Java Springboot Web app to DockerHub.
 
 ![Screenshot 2024-06-24 at 6 40 52 PM](https://github.com/user-attachments/assets/806648b2-a496-48dd-a784-7a8ce9ed10e9)
