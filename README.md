@@ -18,7 +18,7 @@ For this project, you are to setup a pipeline with Maven, SonarQube, and Docker 
 
 ### Step 3: Go to “Configuration”, Select “Poll SCM” and Enter the details for your GitHub repo & Jenkinsfile or copy and paste the Jenkinsfile in this repo.
 
-![image](https://github.com/user-attachments/assets/7a621423-4f32-450f-9659-3c0c15ed87a0)
+![image](https://github.com/user-attachments/assets/eb0a8f60-bf57-44aa-af77-936e23a68b15)
 
 ![image](https://github.com/user-attachments/assets/7e630246-abc9-4509-93b8-aefc56cc4273)
 
