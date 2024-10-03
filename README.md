@@ -29,6 +29,9 @@ For this project, you are to setup a pipeline with Maven, SonarQube, and Docker 
 
 ![Screenshot 2024-06-24 at 6 46 55 PM](https://github.com/user-attachments/assets/bbbf249d-11ba-402f-bb20-7e4281a1287f)
 
+![Screenshot 2024-06-25 at 4 39 13 PM](https://github.com/user-attachments/assets/be7d9da9-a9e5-49c1-81f9-bc9e5b79634b)
+
+
 ![Screenshot 2024-06-24 at 6 47 17 PM](https://github.com/user-attachments/assets/84df1d11-37c8-46f0-b742-597c661a34d2)
 
 ![Screenshot 2024-06-24 at 6 47 51 PM](https://github.com/user-attachments/assets/15fe9b10-4d9e-4cb6-ab51-0cabed9f699a)
