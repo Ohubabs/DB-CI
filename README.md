@@ -6,6 +6,12 @@
 
 For this project, you are to setup a pipeline with Maven, SonarQube, and Docker to Build, Test, Containerize and Push your Java Springboot Web app to DockerHub. 
 
+## Prerequisites
+
+- EC2 instance with Docker installed setup as a Worker Node ( To configure this, check Project Part 2: https://github.com/Ohubabs/DB-Docker.git)
+- Sonarqube deplyed for running Code Quality Tests (To deploy SonarQube in Kubernetes, check Project Part 3: https://github.com/Ohubabs/DB-Sonarqube.git)
+- Prior Knowledge of setting up CI pipeline with Maven, Sonarqube, Jenkins, and Docker.
+
 ## CI Pipeline
 
 ### Step 1: Go to New Item” from the Dashboard, select “Pipeline”, name it “Docker_Build”.
